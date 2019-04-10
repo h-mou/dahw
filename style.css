@@ -1,0 +1,31 @@
+body{
+  margine:0;
+}
+
+ a {
+   color:black;
+   text-decoration: none;
+ }
+
+ h1{
+color:gray;
+font-size:45px;
+text-align: center;
+border-bottom: 1px solid gray;
+margine: 0px;
+padding:20px;
+}
+
+ol{
+ color:gray;
+ border-right:1px solid gray;
+ width:250px;
+ margine:0;
+ padding:20px;
+}
+
+
+  #grid{
+    display:grid;
+    grid-template-columns: 380px 1fr;
+  }
